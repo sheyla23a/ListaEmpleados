@@ -1,4 +1,5 @@
 import EmpleadoAvatar from "./EmpleadoAvatar";
+import EmpleadoRow from "./EmpleadoRow";
 
 const EmpleadoList = ({ empleados }) => {
   return (
@@ -10,6 +11,13 @@ const EmpleadoList = ({ empleados }) => {
               pic={`empleado${empleado.id}.png`}
               fullName={empleado.fullName}
             />
+            <div>
+              <EmpleadoRow
+                fullName={empleado.fullName}
+                title={empleado.title}
+                department={empleado.department}
+              />
+            </div>
           </div>
         </div>
       ))}
