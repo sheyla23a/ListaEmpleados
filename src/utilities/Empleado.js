@@ -4,7 +4,7 @@ export const Empleado = [
     fullName: "Laya Dueñas",
     title: "CEO",
     department: "Business",
-    pic: "./src/img/empleado1.png",
+    pic: "empleado01.png",
   },
   {
     id: 2,
